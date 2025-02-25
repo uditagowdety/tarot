@@ -1,0 +1,40 @@
+.tarot-container {
+    width: 100vw;
+    text-align: center;
+    padding: 20px;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    min-height: 100vh;
+}
+
+.draw-button {
+    background: #ffcc00;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.draw-button:hover {
+    background: #ff9900;
+}
+
+.card-display {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.title{
+    font-size: 3rem;
+}
+
+.interpretation {
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.6;
+}
